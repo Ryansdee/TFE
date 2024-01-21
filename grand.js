@@ -28,8 +28,11 @@ function agrandirDiv() {
         pElement.style.display = 'block';
         chElement.style.display = 'block';
     } else {
-        monDiv.style.width = '400px';
-        monDiv.style.marginLeft = '35vw';
+        monDiv.style.width = '30dvw';
+        monDiv.style.justifyContent = 'center';
+        monDiv.style.alignItems = 'center';
+        monDiv.style.position = 'center';
+        monDiv.style.marginLeft = '35dvw'
         monDiv.style.borderRadius = '1vw';
         h2Element.classList.remove('animateH2');
         h2Element.style.display = 'none';
