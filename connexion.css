@@ -1,0 +1,304 @@
+@font-face {
+    font-family: ryan;
+    src: url(/font/BebasNeue-Regular.ttf);
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background: #1b2533;
+}
+.nav{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+    background: #151d2b;
+}
+.nav a{
+    margin-top: 1vw;
+    transition: 0.4s ease;
+}
+.nav a:hover{
+    color:#4a88d0;
+}
+.nav img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -0.4vw;
+    margin-left: 20vw;
+    width: 4vw;
+    cursor: pointer;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.home{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 80vw;
+}
+.connexion{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 83vw;
+}
+.inscription{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 87vw;
+}
+.recherche{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 83vw;
+}
+.profile{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 87.4vw;
+}
+.ryan{
+    display: block;
+    position: absolute;
+    width: 16vw;
+    margin-top: 14vw;
+    margin-left: 80vw;
+    backdrop-filter: blur(1px);
+    animation: pup 4s;
+}
+.intro{
+    display: block;
+    position: absolute;
+    width: 20vw;
+    margin-top: 22vw;
+    margin-left: 62vw;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1.3vw;
+    animation: pap 5s;
+}
+form{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'ryan';
+    font-size: 1vw;
+    text-align: left;
+    border: 1px solid black;
+    width: 20vw;
+    height: 25vw;
+    margin-left: 20vw;
+    margin-top: 10vw;
+    overflow: hidden;
+    border-radius: 0.4vw;
+    background: #131B28;
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    animation: neon 2.4s infinite;
+    transition: 0.4s ease;
+    animation: pop 1.8s;
+}
+form a{
+    color: black;
+}
+form img{
+    display: block;
+    position: absolute;
+    width: 11vw;
+    margin-left: 4.3vw;
+    margin-top: 1vw;
+}
+@keyframes pap {
+    0%{
+        color: transparent;
+        margin-top: 24vw;
+    }
+    90%{
+        color: transparent;
+        margin-top: 23vw;
+    }
+    100%{
+       color: #c0c0c0;
+       margin-top: 22vw;
+    }
+}
+@keyframes pup {
+    0%{
+        transform: scale(0.001);
+        margin-left: 40vw;
+    }
+    30%{
+        transform: scale(0.001);
+    }
+    60%{
+        transform: scale(1);
+        margin-left: 40vw;
+    }
+    100%{
+        margin-left: 80vw;
+    }
+}
+@keyframes pop {
+    0%{
+        transform: scale(0.01);
+        margin-left: 40vw;
+    }
+    58%{
+        transform: scale(1);
+    }
+    60%{
+        margin-left: 40vw;
+    }
+    100%{
+        margin-left: 20vw;
+    }
+}
+@keyframes neon {
+    0%{
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    }
+    50%{
+        -webkit-box-shadow: 3px 4px 41px 3px rgba(74, 137, 208, 0.800);
+        -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.800);
+        box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.800);
+    }
+    100%{
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    }
+}
+#nom{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 12.4vw;
+    margin-left: 1vw;
+    color: #dbdbdb;
+}
+#user{
+    display: block;
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: 1vw;
+    width: 17.7vw;
+    height: 2.3vh;
+    font-family: 'ryan';
+}
+#mdp{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 15.4vw;
+    margin-left: 1vw;
+    color: #dbdbdb;
+}
+#pswd{
+    display: block;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 1vw;
+    width: 17.7vw;
+    height: 2.3vh;
+}
+.ins{
+    display: block;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 6.6vw;
+    z-index: 1;
+}
+.ins a{
+    transition: 0.4s ease;
+}
+.ins a:hover{
+    color: #4a88d0;
+}
+#bouton{
+    display: block;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 5vw;
+    border: none;
+    background: #4a88d0;
+    color: rgb(0, 0, 0);
+    font-family: 'ryan';
+    width: 10vw;
+    height: 4vh;
+    cursor: pointer;
+    border-radius: 0.1vw;
+    transition: 0.4s ease;
+}
+#bouton:hover{
+    border-radius: 1vw;
+}
+#posts {
+    display: flex;
+    flex-direction: column; /* Les éléments à l'intérieur de .post seront empilés verticalement */
+    align-items: center; /* Centrer horizontalement les éléments à l'intérieur de .post */
+    justify-content: center; /* Centrer verticalement les éléments à l'intérieur de .post */ 
+    top: 0;
+    left: 0;
+    margin-top: 9vw;
+    width: 30vw;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+.post{
+    display: flex;
+    position: relative;
+    flex-direction: column; /* Les éléments à l'intérieur de .post seront empilés verticalement */
+    border: 0.1vw solid #4a89d0be;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 1vw;
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74, 137, 208, 0.075);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.075);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.075);
+    overflow: hidden;
+    transition: 0.4s ease;
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    background: #dbdbdb;
+    font-family: 'ryan';
+}
+.post img{
+    position: relative;
+    width: 20vw;
+    justify-content: center;
+    justify-self: center;
+    background: rgba(74, 137, 208, 0.075);
+}
+.post:hover{
+    transform: scale(1.01);
+}

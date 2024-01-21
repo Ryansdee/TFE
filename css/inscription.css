@@ -1,0 +1,223 @@
+@font-face {
+    font-family: ryan;
+    src: url(/font/BebasNeue-Regular.ttf);
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background: #1b2533;
+}
+.nav{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+    background: #151d2b;
+}
+.nav a{
+    margin-top: 1vw;
+    transition: 0.4s ease;
+}
+.nav a:hover{
+    color:#4a88d0;
+}
+.nav img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -0.4vw;
+    margin-left: 20vw;
+    width: 4vw;
+    cursor: pointer;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.home{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 80vw;
+}
+.connexion{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 83vw;
+}
+.inscription{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 87vw;
+}
+.recherche{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-family: 'ryan';
+    font-size: 1vw;
+    margin-left: 86.6vw;
+}
+form{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'ryan';
+    font-size: 1vw;
+    text-align: left;
+    border: 1px solid black;
+    width: 20vw;
+    height: 30vw;
+    margin-left: 40vw;
+    margin-top: 10vw;
+    overflow: hidden;
+    border-radius: 0.4vw;
+    background: #131B28;
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px #4a88d059;
+    animation: neon 2.4s infinite;
+    transition: 0.4s ease;
+}
+form a{
+    color: black;
+}
+form img{
+    display: block;
+    position: absolute;
+    width: 11vw;
+    margin-left: 4.3vw;
+    margin-top: 1vw;
+}
+@keyframes neon {
+    0%{
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    }
+    50%{
+        -webkit-box-shadow: 3px 4px 41px 3px rgba(74, 137, 208, 0.800);
+        -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.800);
+        box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.800);
+    }
+    100%{
+    -webkit-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    -moz-box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    box-shadow: 3px 4px 41px 3px rgba(74,136,208,0.35);
+    }
+}
+#nom{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10vw;
+    margin-left: 1vw;
+    color: #dbdbdb;
+}
+#user{
+    display: block;
+    position: absolute;
+    margin-top: 11.6vw;
+    margin-left: 1vw;
+    width: 17.7vw;
+    height: 2.3vh;
+    font-family: 'ryan';
+}
+#mail{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 13vw;
+    margin-left: 1vw;
+    color: #dbdbdb;
+}
+#email{
+    display: block;
+    position: absolute;
+    margin-top: 14.5vw;
+    margin-left: 1vw;
+    width: 17.7vw;
+    height: 2.3vh;
+    font-family: 'ryan';
+}
+#mdp{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 15.4vw;
+    margin-left: 1vw;
+    color: #dbdbdb;
+}
+#pswd{
+    display: block;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 1vw;
+    width: 17.7vw;
+    height: 2.3vh;
+}
+#pdp{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 18.5vw;
+    margin-left: 7vw;
+    color: #dbdbdb;
+}
+#phdp{
+    display: block;
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 4vw;
+    width: 17.7vw;
+    height: 2.3vh;
+    font-family: 'ryan';
+    color: #4a88d0;
+}
+.ins{
+    display: block;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 6.6vw;
+    z-index: 1;
+}
+.ins a{
+    transition: 0.4s ease;
+}
+.ins a:hover{
+    color: #4a88d0;
+}
+#bouton{
+    display: block;
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: 5vw;
+    border: none;
+    background: #4a88d0;
+    color: rgb(0, 0, 0);
+    font-family: 'ryan';
+    width: 10vw;
+    height: 4vh;
+    cursor: pointer;
+    border-radius: 0.1vw;
+    transition: 0.4s ease;
+}
+#bouton:hover{
+    border-radius: 1vw;
+}
