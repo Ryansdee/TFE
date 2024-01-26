@@ -348,8 +348,18 @@ form:hover{
 .fadeIn {
     animation: fadeIn 3s ease;
     opacity: 1;
-  }
-  
+}
+.ki {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #4a89d036;
+}
+.ki img{
+    width: 15vw;
+    background: #797979;
+}  
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -389,15 +399,4 @@ form:hover{
         opacity: 1;
         transform: translateY(0);
     }
-}
-.ki {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 1px solid #4a89d036;
-}
-.ki img{
-    width: 15vw;
-    background: #797979;
 }
