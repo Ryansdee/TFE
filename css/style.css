@@ -390,3 +390,14 @@ form:hover{
         transform: translateY(0);
     }
 }
+.ki {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #4a89d036;
+}
+.ki img{
+    width: 15vw;
+    background: #797979;
+}
